@@ -1,8 +1,12 @@
 h1{
 color: #0033cc;
 text-align:center;
+font-family: 'Orbitron', sans-serif;
+font-size: 60px;
+
 }
 #italic{
+    text-decoration: underline;
     font-style: italic;
     
 }
