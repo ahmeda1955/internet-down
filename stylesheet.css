@@ -13,4 +13,11 @@ font-size: 60px;
 
 body {
     background-image: url(background.jpg);
+    background-size: cover;
+    
+    
+}
+
+background.jpg {
+    -webkit-filter: blur(50px);
 }
