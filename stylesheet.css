@@ -11,22 +11,38 @@ font-size: 60px;
     
 }
 
-body {
-    background-image: url(background.jpg);
-}
+
+
 
 hr {
     
     border: 0;
     height: 1px;
     background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    background-image: linear-gradient(to right, red, blue, red);
 }
 h2 {
 color: #0033cc;
 text-align:center;
-font-family: 'Orbitron', sans-serif;
 font-size: 30px; 
  font-family: 'Poiret One', cursive;
 
 }
+.bg {
+      height: 110%;
+            width: 105%;
+            position: fixed;
+            top: -15px;
+            left: -15px;
+            z-index: -1;
+            background: linear-gradient( 
+            /*top*/
+            rgba(50, 0, 0, 0.5), 
+            /*bottom*/
+            rgba(50, 0, 0, 0.5)), 
+            /*URL*/
+            url(
+            'backky.jpg'
+            );
+            background-size: cover;
+            -webkit-filter: blur(15px);
